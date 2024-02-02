@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		790CF95D2B6D3334006F7AE6 /* Arithmetic_BuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CF95C2B6D3334006F7AE6 /* Arithmetic_BuddyApp.swift */; };
-		790CF95F2B6D3334006F7AE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CF95E2B6D3334006F7AE6 /* ContentView.swift */; };
 		790CF9612B6D3337006F7AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790CF9602B6D3337006F7AE6 /* Assets.xcassets */; };
 		790CF9642B6D3337006F7AE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790CF9632B6D3337006F7AE6 /* Preview Assets.xcassets */; };
+		790CF96D2B6D33C0006F7AE6 /* AdditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790CF96C2B6D33C0006F7AE6 /* AdditionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		790CF9592B6D3334006F7AE6 /* Arithmetic Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arithmetic Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		790CF95C2B6D3334006F7AE6 /* Arithmetic_BuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arithmetic_BuddyApp.swift; sourceTree = "<group>"; };
-		790CF95E2B6D3334006F7AE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		790CF9602B6D3337006F7AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		790CF9632B6D3337006F7AE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		790CF96C2B6D33C0006F7AE6 /* AdditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				790CF95C2B6D3334006F7AE6 /* Arithmetic_BuddyApp.swift */,
-				790CF95E2B6D3334006F7AE6 /* ContentView.swift */,
+				790CF96B2B6D3375006F7AE6 /* Views */,
 				790CF9602B6D3337006F7AE6 /* Assets.xcassets */,
 				790CF9622B6D3337006F7AE6 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				790CF9632B6D3337006F7AE6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		790CF96B2B6D3375006F7AE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				790CF96C2B6D33C0006F7AE6 /* AdditionView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790CF95F2B6D3334006F7AE6 /* ContentView.swift in Sources */,
+				790CF96D2B6D33C0006F7AE6 /* AdditionView.swift in Sources */,
 				790CF95D2B6D3334006F7AE6 /* Arithmetic_BuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
